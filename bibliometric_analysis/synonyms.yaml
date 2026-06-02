@@ -1,0 +1,12 @@
+object:
+  FPGA:
+    - "FPGA"
+
+method:
+  acceleration_algorithm:
+    - "hardware acceleration"
+    - "edge inference"
+
+context:
+  computing_scenario:
+    - "edge computing"
