@@ -1,0 +1,45 @@
+version: "1.0"
+project: "FPGA Hardware Acceleration & Edge Inference"
+time_window: [2018, 2025]
+language: "English"
+document_type:
+  - Article
+  - Review
+  - Conference Paper
+
+search_fields:
+  - Title
+  - Abstract
+  - Keywords
+
+query:
+  object:
+    FPGA:
+      - "FPGA"
+      - "Field Programmable Gate Array"
+
+  method:
+    acceleration:
+      - "hardware acceleration"
+      - "hardware accelerator"
+      - "edge inference"
+
+  context:
+    computing_scenario:
+      - "edge computing"
+      - "embedded system"
+      - "edge device"
+
+  performance:
+    - "low power"
+    - "energy efficiency"
+    - "real-time processing"
+
+exclusion:
+  - "quantum computing"
+  - "biological neural network"
+  - "software simulation only"
+
+notes:
+  description: "High complexity FPGA retrieval strategy for bibliometric analysis"
+  database: "Web of Science, Scopus"
