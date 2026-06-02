@@ -1,12 +1,28 @@
-object:
+synonyms:
   FPGA:
     - "FPGA"
-
-method:
-  acceleration_algorithm:
+    - "Field Programmable Gate Array"
+  
+  hardware_acceleration:
     - "hardware acceleration"
+    - "hardware-accelerated"
+    - "hardware accelerator"
+    - "hardware speedup"
+  
+  edge_inference:
     - "edge inference"
+    - "edge inferencing"
+    - "inference at edge"
+    - "on-edge inference"
+    - "edge-side inference"
 
-context:
-  computing_scenario:
+  edge_computing:
     - "edge computing"
+    - "edge network"
+    - "edge device"
+    - "edge node"
+
+  embedded_system:
+    - "embedded system"
+    - "embedded device"
+    - "embedded hardware"
