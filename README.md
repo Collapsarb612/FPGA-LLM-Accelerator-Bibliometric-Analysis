@@ -1,4 +1,4 @@
-基于文献计量法的 FPGA 大模型加速器领域研究态势分析
+<h1 style="font-size: 30px;">基于文献计量法的 FPGA 大模型加速器领域研究态势分析</h1>
 
 > Research Status Analysis of FPGA Large Language Model Accelerator Domain Based on Bibliometrics
 
@@ -14,13 +14,13 @@ TL;DR 核心结论
 
 ---
 
-一、研究背景与目标
+<h2 style="font-size: 22px;">一、研究背景与目标</h2>
 
-1.1 研究背景
+<h3 style="font-size: 18px;">1.1 研究背景</h3>
 
 随着大语言模型（LLM）参数规模的指数级增长，基于通用处理器的推理部署面临严重的能效瓶颈与延迟挑战。FPGA（Field Programmable Gate Array）凭借其硬件可重构、低功耗、高并行计算密度等独特优势，成为大模型边缘部署与推理加速的重要硬件载体。准确研判该交叉领域的研究态势、技术热点与发展规律，对于指导后续硬件架构设计、算法优化及工程落地具有重要学术价值与实践意义。
 
-1.2 核心研究目标
+<h3 style="font-size: 18px;">1.2 核心研究目标</h3>
 
 基于 Web of Science、Scopus、IEEE Xplore 主流数据库 2017–2026 年 FPGA 大模型加速器领域文献，依托标准化文献计量方法与可视化工具，完成全维度研究态势分析，精准解答四大核心研究问题：
 
