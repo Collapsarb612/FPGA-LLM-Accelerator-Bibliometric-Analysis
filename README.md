@@ -78,13 +78,13 @@ AND PY=2017-2026
 
 <h3 style="font-size: 18px;">3.2 各步骤详细说明</h3>
 
-Step 1：原始数据导出与归档
+<h4 style="font-size: 15px;">Step 1：原始数据导出与归档</h4>
 
 - 从 Web of Science、Scopus、IEEE Xplore、CNKI 导出检索结果，核心字段包括：题名（TI）、作者（AU）、机构（AF）、年份（PY）、关键词（KW）、DOI、期刊（SO）、摘要（AB）、参考文献（CR）等 52 项字段
 - 原始数据归档至 `data/raw/` 目录，保留每批次导出参数、时间戳与数据源信息
 - 编制 `data/field_dictionary.md`，逐一定义 52 项字段释义、用途与清洗规则
 
-Step 2：重复值精准剔除
+<h4 style="font-size: 15px;">Step 2：重复值精准剔除</h4>
 
 ```python
 # 核心去重逻辑：基于 DOI + 标题 双重维度精准去重
@@ -103,7 +103,7 @@ def remove_duplicates(df):
 - 有效识别并剔除一稿多投、同一成果被多数据库重复收录的文献
 - 清洗结果：重复率从初始 23.6% 降至 0%，实现零重复文献
 
-Step 3：关键词主题筛选
+<h4 style="font-size: 15px;">Step 3：关键词主题筛选</h4>
 
 - 通过布尔逻辑筛选主题词，仅保留 FPGA、大模型、硬件加速、轻量化推理相关核心文献
 - 建立领域专属关键词词库，涵盖：
@@ -112,7 +112,7 @@ Step 3：关键词主题筛选
   - 加速维度：Hardware Acceleration、Quantization、Pruning、Edge Inference
   - 场景维度：Edge Deployment、Heterogeneous Computing、Low Power
 
-Step 4：无效数据剔除
+<h4 style="font-size: 15px;">Step 4：无效数据剔除</h4>
 
 - 删除作者（AU）、年份（PY）、关键词（KW）等核心分析字段缺失的残缺数据
 - 剔除会议摘要、编辑材料、信件、书评、科普文章等非研究性文献
@@ -123,14 +123,14 @@ Step 4：无效数据剔除
 非研究型文献	文献类型为摘要、信件、社论等	约 8%	
 领域不相关文献	关键词与主题词库匹配度 < 阈值	约 6%	
 
-Step 5：字段标准化与归一化
+<h4 style="font-size: 15px;">Step 5：字段标准化与归一化</h4>
 
 - 机构名称消歧：统一机构中英文名称（如 "Chinese Academy of Sciences" ↔ "中国科学院"）
 - 关键词同义合并：将同义词、近义词归并至标准术语（如 "deep neural network" → "DNN"）
 - 年份格式统一：统一为四位数字格式（YYYY）
 - 作者名格式统一：统一为 "姓, 名首字母" 的标准格式
 
-Step 6：数据质量校验与评估
+<h4 style="font-size: 15px;">Step 6：数据质量校验与评估</h4>
 
 运行自动化质控脚本，完成全维度数据质量评估：
 
