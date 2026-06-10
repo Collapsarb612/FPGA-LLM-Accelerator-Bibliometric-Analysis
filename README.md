@@ -168,7 +168,7 @@ def remove_duplicates(df):
 
 ---
 
-图二：研究机构分布图（合作网络分析）
+<h4 style="font-size: 15px;">图二：研究机构分布图（合作网络分析）</h4>
 
 ![研究机构分布图](images/Image_1780542387520_932.png)
 
@@ -183,7 +183,7 @@ def remove_duplicates(df):
 
 ---
 
-图三：关键词共现网络图（主题聚类分析）
+<h4 style="font-size: 15px;">图三：关键词共现网络图（主题聚类分析）</h4>
 
 ![关键词共现网络图](images/Image_1780542392480_118.png)
 
@@ -206,7 +206,7 @@ C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗�
 
 ---
 
-表一：文献类型分布统计表
+<h4 style="font-size: 15px;">表一：文献类型分布统计表</h4>
 
 文献类型	 数量	占比	 特征解读	
 学位论文	 85	  38.3%	 研究体系完整，理论深度好	
@@ -223,7 +223,7 @@ C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗�
 
 ---
 
-补充图谱
+<h4 style="font-size: 15px;">补充图谱</h4>
 
 硬件架构设计图
 
@@ -233,7 +233,7 @@ C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗�
 
 本项目 FPGA-LLM 硬件加速器整体架构采用四层模块化设计：顶层控制层、数据缓存层、运算加速层、外设交互层。各模块独立解耦、时序统一、结构清晰，具备典型的流水线加速架构特征，满足轻量化大模型推理加速的硬件架构设计要求。
 
-硬件仿真验证图
+<h4 style="font-size: 15px;">硬件仿真验证图</h4>
 
 ![硬件仿真验证图](images/Image_1780542401976_700.png)
 
