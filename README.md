@@ -153,7 +153,7 @@ def remove_duplicates(df):
 
 ---
 
-图一：年度发文趋势图（时序分析）
+<h4 style="font-size: 15px;">图一：年度发文趋势图（时序分析）</h4>
 
 ![年度发文趋势图](images/Image_1780542375877_621.png)
 
