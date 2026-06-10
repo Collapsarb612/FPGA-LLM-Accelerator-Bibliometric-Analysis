@@ -192,19 +192,8 @@ def remove_duplicates(df):
 核心发现：
 
 网络形成 5 大核心聚类，反映领域技术体系全貌：
+![研究机构分布图](images/Image_1780542387520_932.png)
 
-聚类编号	主题标签	核心关键词	研究内涵	
-C1	FPGA 硬件架构优化	FPGA architecture、parallel computing、pipeline design	可重构计算阵列、并行流水线架构设计	
-C2	大模型轻量化	model quantization、pruning、knowledge distillation	权重量化、模型剪枝、知识蒸馏	
-C3	边缘推理部署	edge inference、real-time deployment、IoT	端侧实时推理、边缘智能终端	
-C4	异构协同计算	heterogeneous computing、CPU-FPGA co-design	CPU-GPU-FPGA 协同加速框架	
-C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗墙突破、能效比优化	
-
-- 硬件加速与轻量化部署为网络核心节点，度中心性最高，是领域研究的两大支柱方向
-- 异构计算作为桥接节点，连接硬件架构与算法优化两大群落，是技术融合创新的关键枢纽
-- 低功耗边缘推理处于网络边缘但增长速率最快，为领域最新前沿方向
-
----
 
 <h4 style="font-size: 15px;">表一：文献类型分布统计表</h4>
 
