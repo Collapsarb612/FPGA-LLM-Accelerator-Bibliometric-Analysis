@@ -225,7 +225,7 @@ C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗�
 
 <h4 style="font-size: 15px;">补充图谱</h4>
 
-硬件架构设计图
+<h4 style="font-size: 15px;">硬件架构设计图</h4>
 
 ![硬件架构设计图](images/Image_1780542397282_514.png)
 
