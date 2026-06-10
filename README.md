@@ -235,7 +235,7 @@ C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗�
 
 <h4 style="font-size: 15px;">硬件仿真验证图</h4>
 
-![硬件仿真验证图](images/Image_1780542401976_700.png)
+![硬件仿真验证图](images/13302a3696c487ccf48bfd83bc7e0ab.png)
 
 > 图 5：Vivado 功能仿真与时序仿真验证结果
 
