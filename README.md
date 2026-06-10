@@ -147,7 +147,7 @@ def remove_duplicates(df):
 
 ---
 
-四、核心分析成果：三图一表
+<h2 style="font-size: 22px;">四、核心分析成果：三图一表</h2>
 
 本项目依托 CiteSpace、VOSviewer、networkx 等工具开展多维可视化分析，所有图谱均以 300 DPI 高清分辨率输出。以下呈现核心的「三图一表」分析成果：
 
@@ -243,7 +243,7 @@ C5	低功耗设计	low power、energy efficiency、thermal optimization	功耗�
 
 ---
 
-五、项目团队与分工
+<h2 style="font-size: 22px;">五、项目团队与分工</h2>
 
 1.王枭 ：技术开发
 负责项目工程化落地与可复现性保障，为团队核心技术负责人。主导GitHub仓库标准化搭建，规范data/src/outputs/reports/paper/docs全层级目录结构，配置专属.gitignore、开源LICENSE，全程管控项目版本迭代与提交规范。搭建可一键部署的Conda/Python标准化运行环境，精准锁定bibliometrix、pybliometrics、networkx、matplotlib、CiteSpace适配依赖版本，编写完整requirements.txt与environment.yml，实现项目全流程一键运行、结果可复现。自主开发领域专属数据读写、字段规整、质量校验、批量筛选全套src脚本，调试优化数据分析与可视化核心库，解决版本兼容、渲染异常、数据报错等各类技术问题。全程协助团队完成数据处理、图谱生成、文档格式标准化等工作，统筹项目整体技术落地与质量管控。
