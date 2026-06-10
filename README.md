@@ -192,7 +192,7 @@ def remove_duplicates(df):
 核心发现：
 
 网络形成 5 大核心聚类，反映领域技术体系全貌：
-![研究机构分布图](images/Image_1780542387520_932.png)
+![研究机构分布图](images/facf9eba7bd07968f248da4613da887.png)
 
 
 <h4 style="font-size: 15px;">表一：文献类型分布统计表</h4>
