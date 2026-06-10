@@ -295,7 +295,7 @@ FPGA-LLM-Accelerator-Bibliometric-Analysis/
 │   ├── Image_1780542387520_932.png   # 研究机构分布图
 │   ├── Image_1780542392480_118.png   # 关键词共现网络图
 │   ├── Image_1780542397282_514.png   # 硬件架构设计图
-│   └── Image_1780542401976_700.png   # 硬件仿真验证图
+│   └── Image_13302a3696c487ccf48bfd83bc7e0ab.png   # 硬件仿真验证图
 ├── src/                       # Python 分析脚本
 ├── outputs/                   # 分析结果与图表
 ├── reports/                   # 分析报告与 QC 文档
