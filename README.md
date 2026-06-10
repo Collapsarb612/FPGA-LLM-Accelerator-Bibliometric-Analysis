@@ -155,7 +155,7 @@ def remove_duplicates(df):
 
 <h4 style="font-size: 15px;">图一：年度发文趋势图（时序分析）</h4>
 
-![年度发文趋势图](images/Image_1780542375877_621.png)
+![关键词共现网络图](images/Image_1780542392480_118.png)
 
 > 图 1：2017–2026 年 FPGA 大模型加速器领域年度发文趋势与增长速率
 
@@ -170,7 +170,7 @@ def remove_duplicates(df):
 
 <h4 style="font-size: 15px;">图二：研究机构分布图（合作网络分析）</h4>
 
-![研究机构分布图](images/Image_1780542387520_932.png)
+![年度发文趋势图](images/Image_1780542375877_621.png)
 
 > 图 2：FPGA 大模型加速器领域核心研究机构产出分布与合作网络
 
@@ -185,7 +185,7 @@ def remove_duplicates(df):
 
 <h4 style="font-size: 15px;">图三：关键词共现网络图（主题聚类分析）</h4>
 
-![关键词共现网络图](images/Image_1780542392480_118.png)
+![研究机构分布图](images/Image_1780542387520_932.png)
 
 > 图 3：FPGA 大模型加速器领域高频关键词共现网络与主题聚类
 
